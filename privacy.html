@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy - FFXIV Discord Bot</title>
+  <style>
+    :root{
+      --bg:#0f1115;
+      --card:#171a21;
+      --text:#e8ecf1;
+      --muted:#a9b4c0;
+      --line:#2a3140;
+      --accent:#d2a24c;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+      background:linear-gradient(180deg,#0d1015 0%,#121722 100%);
+      color:var(--text);
+      line-height:1.75;
+    }
+    .wrap{
+      max-width:960px;
+      margin:0 auto;
+      padding:32px 20px 60px;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:28px;
+      box-shadow:0 10px 30px rgba(0,0,0,.25);
+    }
+    h1,h2{line-height:1.3;margin:0 0 14px}
+    h1{font-size:2rem}
+    h2{
+      margin-top:28px;
+      padding-top:10px;
+      border-top:1px solid var(--line);
+      font-size:1.2rem;
+      color:#fff;
+    }
+    p,li{color:var(--text)}
+    .meta{
+      color:var(--muted);
+      margin-bottom:18px;
+    }
+    .badge{
+      display:inline-block;
+      padding:4px 10px;
+      border:1px solid var(--accent);
+      color:#ffe2a8;
+      border-radius:999px;
+      font-size:.92rem;
+      margin-bottom:14px;
+    }
+    a{color:#ffd58a}
+    ul{padding-left:1.2rem}
+    .footer{
+      margin-top:32px;
+      color:var(--muted);
+      font-size:.95rem;
+    }
+    code{
+      background:#10141c;
+      border:1px solid var(--line);
+      padding:.1em .4em;
+      border-radius:8px;
+      color:#ffd58a;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="badge">Discord Bot Privacy Policy</div>
+      <h1>Privacy Policy</h1>
+      <div class="meta">
+        Last updated: 2026-03-23<br>
+        Bot Name: ffxiv-物品查詢bot
+      </div>
+
+      <p>本隱私權政策說明 <strong>ffxiv-物品查詢bot</strong>（以下稱「本 Bot」或「本服務」）如何處理與本 Bot 相關的資料。</p>
+
+      <h2>1. 本 Bot 可能處理的資料</h2>
+      <p>依本 Bot 的功能，我們可能處理下列資料：</p>
+      <ul>
+        <li>Discord 使用者 ID</li>
+        <li>Discord 伺服器 ID</li>
+        <li>Discord 頻道或互動相關識別資訊</li>
+        <li>使用者輸入的 <code>/ff</code> 查詢內容，例如物品名稱或 ItemID</li>
+        <li>Discord interaction 所需的基本中介資料</li>
+        <li>Bot 所在伺服器清單資訊</li>
+        <li>白名單設定中的伺服器 ID</li>
+        <li>錯誤訊息、執行結果與基本日誌資訊</li>
+      </ul>
+
+      <h2>2. 我們如何使用資料</h2>
+      <p>上述資料可能用於：</p>
+      <ul>
+        <li>執行 <code>/ff</code> 物品查詢與自動完成</li>
+        <li>顯示詳細資料、查價、HQ/NQ 查價與成本估算</li>
+        <li>驗證是否為 Bot 擁有者，以限制管理指令</li>
+        <li>驗證伺服器是否在白名單中，並自動離開未授權伺服器</li>
+        <li>進行錯誤排除、服務維護與重新連線處理</li>
+        <li>改善本 Bot 的穩定性與功能表現</li>
+      </ul>
+
+      <h2>3. 本 Bot 不主動讀取一般訊息內容</h2>
+      <p>本 Bot 主要以 slash commands 與 interactions 為運作方式，不以讀取一般聊天訊息內容作為主要功能基礎。</p>
+
+      <h2>4. 資料來源</h2>
+      <p>本 Bot 的查詢結果主要來自本地資料目錄中的資料檔，例如 <code>items.json</code>、離線資料庫與翻譯資料。部分功能，例如市場查價或成本估算，可能依賴外部查詢模組或第三方資料服務；若有使用外部服務，該服務可能依其自身政策處理必要請求資料。</p>
+
+      <h2>5. 資料保存</h2>
+      <p>本 Bot 可能在記憶體中暫存部分查詢相關資料，例如物品對照表、離線資料庫與翻譯資料，以提升查詢效率；在特定情況下也會重新載入資料來源。伺服器白名單則由指定 JSON 檔案讀取。</p>
+
+      <h2>6. 資料分享</h2>
+      <p>我們不會出售您的個人資料。但在下列情況下，資料可能被第三方接觸或處理：</p>
+      <ul>
+        <li>透過 Discord 平台與 Discord API 執行本 Bot 功能時</li>
+        <li>使用主機、雲端、網路或外部資料查詢服務時</li>
+        <li>為遵守法律義務、回應合法要求或保護本 Bot 安全時</li>
+      </ul>
+
+      <h2>7. 資料安全</h2>
+      <p>我們會採取合理措施保護本 Bot 所處理的資料。但任何網路傳輸、第三方平台或電子儲存方式都不可能保證絕對安全，因此無法承諾 100% 無風險。</p>
+
+      <h2>8. 使用者權利</h2>
+      <p>若您希望詢問、刪除或更正與您有關且由本 Bot 處理的資料，可透過下方聯絡方式提出。我們會在合理可行範圍內處理您的請求，但某些資料可能因技術、法律、安全或 Discord 平台限制而無法立即完全刪除。</p>
+
+      <h2>9. 伺服器管理員責任</h2>
+      <p>若您是將本 Bot 加入伺服器的管理員或擁有者，您有責任確認您有權限安裝與使用本 Bot，並確認伺服器成員知道該伺服器使用本 Bot，且本 Bot 的功能與權限符合伺服器需求。</p>
+
+      <h2>10. 政策更新</h2>
+      <p>本隱私權政策可能隨時更新。更新版本發布後即生效。您在更新後繼續使用本 Bot，即視為接受修訂後政策。</p>
+
+      <h2>11. 聯絡方式</h2>
+      <p>
+
+        Email: shhou2004@gmail.com<br>
+
+      </p>
+
+      <div class="footer">請將頁面中的聯絡信箱與支援頁面改成你自己的正式資訊後再公開。</div>
+    </div>
+  </div>
+</body>
+</html>

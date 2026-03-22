@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terms of Service - FFXIV Discord Bot</title>
+  <style>
+    :root{
+      --bg:#0f1115;
+      --card:#171a21;
+      --text:#e8ecf1;
+      --muted:#a9b4c0;
+      --line:#2a3140;
+      --accent:#d2a24c;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+      background:linear-gradient(180deg,#0d1015 0%,#121722 100%);
+      color:var(--text);
+      line-height:1.75;
+    }
+    .wrap{
+      max-width:960px;
+      margin:0 auto;
+      padding:32px 20px 60px;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:28px;
+      box-shadow:0 10px 30px rgba(0,0,0,.25);
+    }
+    h1,h2{line-height:1.3;margin:0 0 14px}
+    h1{font-size:2rem}
+    h2{
+      margin-top:28px;
+      padding-top:10px;
+      border-top:1px solid var(--line);
+      font-size:1.2rem;
+      color:#fff;
+    }
+    p,li{color:var(--text)}
+    .meta{
+      color:var(--muted);
+      margin-bottom:18px;
+    }
+    .badge{
+      display:inline-block;
+      padding:4px 10px;
+      border:1px solid var(--accent);
+      color:#ffe2a8;
+      border-radius:999px;
+      font-size:.92rem;
+      margin-bottom:14px;
+    }
+    a{color:#ffd58a}
+    ul{padding-left:1.2rem}
+    .footer{
+      margin-top:32px;
+      color:var(--muted);
+      font-size:.95rem;
+    }
+    code{
+      background:#10141c;
+      border:1px solid var(--line);
+      padding:.1em .4em;
+      border-radius:8px;
+      color:#ffd58a;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="badge">Discord Bot Terms of Service</div>
+      <h1>Terms of Service</h1>
+      <div class="meta">
+        Last updated: 2026-03-23<br>
+        Bot Name: ffxiv-物品查詢bot
+      </div>
+
+      <p>歡迎使用 <strong>ffxiv-物品查詢bot</strong>（以下稱「本 Bot」或「本服務」）。本 Bot 是一個 Discord 應用程式，主要提供 FFXIV 物品查詢相關功能，包括 <code>/ff</code> 指令、查價、HQ/NQ 查價、成本估算、物品自動完成，以及管理用途的伺服器清單功能。部分功能僅能在 Discord 伺服器內使用，且本 Bot 僅允許存在於白名單伺服器中。</p>
+
+      <h2>1. 服務內容</h2>
+      <p>本 Bot 提供的功能可能包含：</p>
+      <ul>
+        <li><code>/ff</code> 物品查詢</li>
+        <li>物品名稱或 ItemID 自動完成候選</li>
+        <li>詳細資料、查價、HQ 查價、NQ 查價、成本估算按鈕切換</li>
+        <li>只有 Bot 擁有者可使用的伺服器清單查詢</li>
+        <li>自動檢查伺服器白名單，並離開未授權伺服器</li>
+      </ul>
+      <p>本 Bot 的功能、輸出內容、可用性與支援範圍可能隨時調整、更新、暫停或終止。</p>
+
+      <h2>2. 使用條件</h2>
+      <p>您同意僅在遵守 Discord 服務條款、Discord 社群規範及適用法律的前提下使用本 Bot。您不得利用本 Bot 從事垃圾訊息、濫用查詢、自動化騷擾、未授權存取、干擾服務或其他違規行為。</p>
+
+      <h2>3. 伺服器限制</h2>
+      <p>本 Bot 僅允許在開發者設定的白名單伺服器中使用。若本 Bot 被加入未授權的伺服器，系統可能在加入時或啟動後自動離開該伺服器。</p>
+
+      <h2>4. 指令與互動限制</h2>
+      <p><code>/ff</code> 指令僅能在伺服器內使用，不能在私人訊息中使用。某些錯誤訊息或管理資訊可能以 ephemeral message 方式回覆，僅使用者本人可見。只有 Bot 擁有者能使用伺服器管理類功能。</p>
+
+      <h2>5. 資料與輸出</h2>
+      <p>本 Bot 會依本地資料檔與相關查詢邏輯產生結果，包含 <code>items.json</code>、離線資料庫與翻譯資料來源。查價與成本估算功能可能依賴額外資料來源或外部查詢模組，因此結果可能延遲、變動、不完整或暫時不可用。</p>
+
+      <h2>6. 不保證事項</h2>
+      <p>本 Bot 依「現況」與「可用性」提供。開發者不保證查詢結果永遠正確、完整或最新，亦不保證服務永不中斷，或一定符合您的特定需求。本 Bot 內含重新連線與錯誤處理機制，但仍可能因 Discord API、網路異常、主機故障、資料檔更新或第三方服務問題而中斷。</p>
+
+      <h2>7. 禁止行為</h2>
+      <ul>
+        <li>以違法或違反 Discord 規範的方式使用本 Bot</li>
+        <li>嘗試繞過權限限制、白名單限制或 owner 限制</li>
+        <li>惡意大量發送查詢造成資源耗盡</li>
+        <li>逆向、破解、重製、再散布或未經授權商業利用本 Bot</li>
+        <li>透過本 Bot 執行惡意、自動化濫用或干擾性行為</li>
+      </ul>
+
+      <h2>8. 責任限制</h2>
+      <p>在適用法律允許的最大範圍內，開發者不對因使用或無法使用本 Bot 所造成的任何直接、間接、附帶、特殊或衍生損害負責，包括但不限於資料遺失、查價誤差、交易判斷錯誤、伺服器管理失誤、功能中斷或第三方服務異常。</p>
+
+      <h2>9. 終止與限制</h2>
+      <p>開發者可基於維護、安全、濫用防範、政策調整或其他理由，隨時限制、暫停或終止任何使用者、伺服器或整體服務對本 Bot 的存取，而無須事先通知。</p>
+
+      <h2>10. 條款修改</h2>
+      <p>本服務條款可能不定期更新。更新版本發布後即生效。您在更新後繼續使用本 Bot，即視為同意修訂後條款。</p>
+
+      <h2>11. 聯絡方式</h2>
+      <p>
+
+        Email: shhou2004@gmail.com<br>
+
+      </p>
+
+      
+    </div>
+  </div>
+</body>
+</html>
